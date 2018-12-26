@@ -1,0 +1,26 @@
+/**
+ * Register our theme info.
+ *
+ * This file does not get loaded on the front end, it's just for populating
+ * theme data in wp-admin.
+ * 
+ * @package WordPress
+ * @subpackage Moose
+ * @since Moose 0.1
+ */
+
+/**
+ * Theme Name: Moose
+ * Theme URI: https://scottfennell.org
+ * Author: Scott Fennell
+ * Author URI: https://scottfennell.org
+ * Description: Moose theme.
+ * Version: 0.1
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: bp
+ * Tags: two-columns
+ *
+ * This theme, like WordPress, is licensed under the GPL.
+ * Use it to make something cool, have fun, and share what you've learned with others.
+ */

@@ -1,0 +1,179 @@
+	.MOOSEWidgetMetaBox-in_widget_form-fields {
+		margin-bottom: 2em;
+	}
+
+ 	.Widgetphp-get_shortcode_builder {
+ 		padding: 1em;
+		margin-bottom: 2em;
+		margin-top: 2em;
+		border: 1px solid #e5e5e5;
+		background: #f1f1f1;
+ 	}
+
+ 	.Widgetphp-get_shortcode_builder-title {
+ 		margin: 0;
+ 		padding-bottom: .5em;
+ 		font-size: 10px;
+ 	}
+
+ 	.Widgetphp-get_shortcode_builder-copy {
+ 		margin-bottom: 3px;
+ 		display: inline-block;
+ 	}
+
+ 	body input.Widgetphp-get_shortcode_builder-shortcode-code {
+ 		line-height: 1em;
+ 		border: 1px dashed rgba( 0, 0, 0, .75 );
+ 		font-size: 12px;
+ 		white-space: nowrap;
+ 		overflow-x: scroll;
+ 		display: block;
+ 		width: 100%;
+ 		background: #fff;
+ 	}
+
+	.MetaBox-get_section-fieldset {
+		padding: 2em;
+		margin-bottom: 2em;
+		border: 1px solid #e5e5e5;
+		background: #f1f1f1;
+	}
+
+	.MetaBox-get_section-fieldset:first-of-type {
+		margin-top: 2em;
+	}
+
+	.MetaBox-get_section-fieldset:last-of-type {
+		margin-bottom: 0;
+	}
+
+	.MetaBox-get_section-fieldset h4 {
+		margin: 0 0 1em 0;
+		font-size: 1.2em;
+	}
+
+	.MetaBox-get_section-fieldset h4 a {
+		text-decoration: none;
+	}
+
+	.MetaBox-get_field {
+		margin-bottom: 1.25em;
+	}
+
+	.MetaBox-get_field:last-of-type {
+		margin-bottom: 0;
+	}
+
+	.MetaBox-get_field-checkbox_group-label {
+		margin-bottom: .25em;
+		font-weight: 600;
+	}
+
+	.Fields-get_array_as_checkbox_group-item {
+		margin-bottom: .25em;
+	}
+
+	.Fields-get_array_as_checkbox_group-item:last-of-type {
+		margin-bottom: 0;
+	}
+
+	.Fields-get_array_as_checkbox_group-item {
+	
+		display: -webkit-box; 
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex; 
+		display: flex;
+
+ 		-webkit-box-align: center;
+		-moz-box-align: center;
+	 	-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+
+
+	}
+
+	.Fields-get_array_as_checkbox_group-item > * {
+		margin: 0 .5em 0 0 !important;
+	}
+
+	.MetaBox-get_field-images {
+		margin-bottom: 2.5em;
+	}
+
+	.MetaBox-get_field-images .Fields-get_array_as_radios,
+	.MetaBox-get_field-images .Fields-get_array_as_radios-item {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.MetaBox-get_field-images .Fields-get_array_as_radios-item input {
+		border: 0;
+		clip: rect(1px, 1px, 1px, 1px);
+		clip-path: inset(50%);
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute !important;
+		width: 1px;
+		word-wrap: normal !important;
+	}
+
+	.MetaBox-get_field-images .MetaBox-get_field-radio-label {
+		margin-bottom: .5em;
+	}
+
+	.MetaBox-get_field-images .Fields-get_array_as_radios-item input + label {
+		display: inline-block;
+		line-height: 0;
+		margin: 0 2em 2em 0;
+	}
+
+	.MetaBox-get_field-images .Fields-get_array_as_radios-item input:checked + label {
+		box-shadow: 0px 0px 6px 2px #0073aa;
+	}
+
+	.MetaBox-get_field-images .Fields-get_array_as_radios-item input + label:hover {
+		box-shadow: 0px 0px 6px 2px #00a0d2;
+	}
+
+	[data-storestoggletarget],
+	[data-storestoggletarget] a {
+		text-decoration: none;
+	}
+
+	[data-storestoggletarget] {
+		transition: margin 500ms;
+	}
+
+	[data-storestoggletarget] a {
+		display: inline-block;
+	}
+
+	html body .wrap .MOOSEToggleClosed {
+		margin-bottom: 0;
+	}
+
+	.Collection-get_as_edit_kv-edit_link {
+		text-decoration: none;
+	}
+
+	.MetaBox-get_field.disabled {
+		position: relative;
+		padding: 5px;
+
+	}
+
+	.MetaBox-get_field.disabled::after {
+		position: absolute;
+		border-radius: 3px;
+		cursor: not-allowed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background: rgba( 255, 255, 255, .5 );
+		content: '';
+	}	
